@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbarHome);
     //    GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
+         GridLayoutManager layoutManager = new GridLayoutManager(this,2);
         recyclerHome.setLayoutManager(layoutManager);
 
         imageList.add(R.drawable.fridge);
